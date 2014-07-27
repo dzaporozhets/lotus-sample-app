@@ -1,0 +1,8 @@
+%h1 Products
+- products.each do |product|
+  %h3
+    = product.title
+    &ndash;
+    = product.price
+    = "$"
+  %p= product.description
